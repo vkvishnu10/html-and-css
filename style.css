@@ -1,0 +1,42 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(247, 233, 233);
+}
+.container{
+   
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+}
+img{
+    height: 500px;
+    width: 500px;
+    box-shadow: 10px 10px 10px 10px black;
+} 
+.reg{
+    background-color: black;
+    color: aliceblue;
+    height: 500px;
+    width: 500px;
+    box-shadow: 10px 10px 10px 10px black;
+    
+    
+    
+}
+
+input[type="text"]{
+    background-color: transparent;
+    border-bottom-color: rgb(12, 11, 11);
+    border-top-color: transparent;
+}
+input[type=submit]:hover{
+    background-color: aquamarine;
+}
+
+form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
